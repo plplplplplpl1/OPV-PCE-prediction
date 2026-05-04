@@ -1,0 +1,34 @@
+# ================================================================
+# OPV PCE Regression - Python Dependencies
+# ================================================================
+
+# Deep Learning Framework
+torch>=2.1.0
+torch-geometric>=2.4.0
+torch-scatter>=2.1.0
+
+# Chemistry and Molecular Processing (RDKit via conda is recommended)
+# conda install -c conda-forge rdkit
+
+# Machine Learning
+xgboost>=2.0.0
+scikit-learn>=1.1.1
+optuna>=3.0.0
+
+# Data Processing
+pandas>=1.4.2
+numpy>=1.23.1,<2.0.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Configuration and Utilities
+PyYAML>=6.0
+scipy>=1.7.0
+
+# Excel File Support (optional)
+openpyxl>=3.0.0
+
+# Progress Tracking (optional)
+tqdm>=4.64.0

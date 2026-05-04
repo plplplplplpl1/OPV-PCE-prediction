@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.so
+
+# Data
+data/*.csv
+data/processed/
+
+# Model weights
+*.pth
+*.pt
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Results (generated at runtime)
+external_results/*.json
+external_results/*.pth
+external_results/full_run_*/
+external_results/_backup/
+external_results/processed/
+
+# Other generated
+catboost_info/
+overnight_pipeline.log
+logs/
+
+# Personal config
+.claude/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
